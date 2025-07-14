@@ -1,0 +1,32 @@
+{
+  "name": "projetobackend-gtech",
+  "version": "1.0.0",
+  "main": "server.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasfr-dev/projetobackend-gtech.git"
+  },
+  "keywords": [],
+  "author": "Nicolas Freire, Jaime Dantas e Marcelo Temoteo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolasfr-dev/projetobackend-gtech/issues"
+  },
+  "homepage": "https://github.com/nicolasfr-dev/projetobackend-gtech#readme",
+  "description": "Servidor feito especialmente para o Projeto Back-end do Geração Tech 2.0",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.14.2",
+    "nodemon": "^3.1.10",
+    "sequelize": "^6.37.7"
+  }
+}
