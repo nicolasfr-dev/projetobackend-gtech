@@ -6,7 +6,8 @@
     "test": "tests"
   },
   "scripts": {
-    "start": "node server.js"
+    "start": "nodemon src/server.js",
+    "test": "jest --runInBand --forceExit"
   },
   "repository": {
     "type": "git",
@@ -18,16 +19,20 @@
   "bugs": {
     "url": "https://github.com/nicolasfr-dev/projetobackend-gtech/issues"
   },
+  "description": "API feita especialmente para o Projeto Back-end do Geração Tech 2.0",
   "homepage": "https://github.com/nicolasfr-dev/projetobackend-gtech#readme",
-  "description": "Servidor feito especialmente para o Projeto Back-end do Geração Tech 2.0",
   "dependencies": {
     "bcryptjs": "^3.0.2",
     "cors": "^2.8.5",
     "dotenv": "^17.2.0",
     "express": "^5.1.0",
+    "jest": "^30.0.4",
     "jsonwebtoken": "^9.0.2",
     "mysql2": "^3.14.2",
     "nodemon": "^3.1.10",
-    "sequelize": "^6.37.7"
+    "pg": "^8.16.3",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.37.7",
+    "supertest": "^7.1.3"
   }
 }
